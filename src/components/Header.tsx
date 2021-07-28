@@ -8,9 +8,9 @@ import {
 
 export function Header(){
     return(
-        <View style={StyleSheet.container}>
+      //  <View style={StyleSheet.container}>
 
-        </View>
+      //  </View>
     )
 }
 

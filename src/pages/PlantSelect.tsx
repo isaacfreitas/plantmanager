@@ -4,7 +4,8 @@ import {
     Text,
     StyleSheet
  } from 'react-native';
-import colors from '../styles/colors';
+
+ import colors from '../styles/colors';
 
 export function PlantSelect(){
     return(
@@ -24,4 +25,4 @@ const styles = StyleSheet.create({
         alignItems:'center'
     },
     
-})
+});

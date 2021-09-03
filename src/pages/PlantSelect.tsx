@@ -2,7 +2,8 @@ import React from 'react';
 import { 
     View,
     Text,
-    StyleSheet
+    StyleSheet,
+    FlatList
  } from 'react-native';
 
 
@@ -41,7 +42,13 @@ const styles = StyleSheet.create({
         marginTop:15
     },
     subtitle:{
-
+        fontFamily:fonts.text,
+        fontSize:17,
+        lineHeight:20,
+        color:colors.heading,
+    },
+    header:{
+        paddingHorizontal:30
     }
     
 });

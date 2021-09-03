@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { 
+    useEffect,
+     useState 
+    } from 'react';
 import { 
     View,
     Text,
@@ -44,7 +47,7 @@ export function PlantSelect(){
                     horizontal
                     showsHorizontalScrollIndicator={false}
                     contentContainerStyle = {styles.enviromentList}
-                />
+                />  
 
              
             </View>
